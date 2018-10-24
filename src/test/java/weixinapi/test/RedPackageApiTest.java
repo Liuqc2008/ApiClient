@@ -21,7 +21,7 @@ public class RedPackageApiTest {
 		Map<String, Object> param = new HashMap<String, Object>();
 		
 		param.put("mch_billno", orderNo);						//商户订单号（每个订单号必须唯一。取值范围：0~9，a~z，A~Z）接口根据商户订单号支持重入，如出现超时可再调用。
-		param.put("re_openid", "oplk_1WBBbRxmpl8iEmtAXjtSmPc");	//接受红包的用户openid
+		param.put("re_openid", "oSU4Bv4yYHK0OaiV_8uy-QVGiKiQ");	//接受红包的用户openid
 		param.put("total_amount", 100);							//付款金额，单位分
 		param.put("total_num", 1);								//红包发放总人数total_num=1
 		param.put("wishing", "萌萌哒");							//红包祝福语
@@ -42,7 +42,7 @@ public class RedPackageApiTest {
 		Map<String, Object> param = new HashMap<String, Object>();
 		
 		param.put("mch_billno", orderNo);						//商户订单号（每个订单号必须唯一。取值范围：0~9，a~z，A~Z）接口根据商户订单号支持重入，如出现超时可再调用。
-		param.put("re_openid", "oplk_1WBBbRxmpl8iEmtAXjtSmPc");	//接受红包的用户openid
+		param.put("re_openid", "oSU4Bv4yYHK0OaiV_8uy-QVGiKiQ");	//接受红包的用户openid
 		param.put("total_amount", 100);							//付款金额，单位分
 		param.put("total_num", 3);								//红包发放总人数total_num=1
 		param.put("amt_type", "ALL_RAND");						//红包金额设置方式ALL_RAND—全部随机,商户指定总金额和红包发放总人数，由微信支付随机计算出各红包金额
@@ -53,6 +53,5 @@ public class RedPackageApiTest {
 		param.put("scene_id", "PRODUCT_1");						//发放红包使用场景
 		
 		RedPackageApi.SendGroupRedPack(param);
-	
 	}
 }
