@@ -3,6 +3,7 @@
 	<name>ApiClient</name>
 	<comment></comment>
 	<projects>
+		<project>infrastructure</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
