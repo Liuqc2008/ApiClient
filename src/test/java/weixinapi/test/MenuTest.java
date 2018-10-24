@@ -7,9 +7,7 @@ import java.util.Map;
 import org.junit.Ignore;
 import org.junit.Test;
 
-
-
-import weixin.sdk.api.MenuApi;
+import apiclient.sdk.weixin.api.MenuApi;
 
 public class MenuTest {
 	

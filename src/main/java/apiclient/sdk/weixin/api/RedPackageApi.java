@@ -1,12 +1,12 @@
-package weixin.sdk.api;
+package apiclient.sdk.weixin.api;
 
 import java.util.Map;
 import java.util.TreeMap;
 
-import weixin.sdk.util.CommonUtil;
-import weixin.sdk.util.MD5;
-import weixin.sdk.util.MapExtend;
-import weixin.sdk.util.WebUtil;
+import apiclient.sdk.util.CommonUtil;
+import apiclient.sdk.util.MD5;
+import apiclient.sdk.util.MapExtend;
+import apiclient.sdk.util.WebUtil;
 
 public class RedPackageApi {
 	public final static String SendRedPackUrl ="https://api.mch.weixin.qq.com/mmpaymkttransfers/sendredpack";

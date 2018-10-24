@@ -1,4 +1,4 @@
-package weixin.sdk.api;
+package apiclient.sdk.weixin.api;
 
 import java.security.MessageDigest;
 import java.util.Formatter;
@@ -8,7 +8,7 @@ import java.util.UUID;
 
 import com.alibaba.fastjson.JSONObject;
 
-import weixin.sdk.util.WebUtil;
+import apiclient.sdk.util.WebUtil;
 
 
 public class JsSDKApi {

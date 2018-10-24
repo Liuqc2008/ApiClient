@@ -1,4 +1,4 @@
-package weixin.sdk.api;
+package apiclient.sdk.weixin.api;
 
 import java.io.BufferedInputStream;
 import java.io.FileInputStream;
@@ -9,10 +9,10 @@ import java.util.Date;
 import java.util.Properties;
 
 import com.alibaba.fastjson.JSONObject;
-import weixin.sdk.util.*;
 
 import Extends.ObjectExtension;
 import Extends.StringExtensions;
+import apiclient.sdk.util.*;
 
 public class Config {
 	public static Properties prop;   

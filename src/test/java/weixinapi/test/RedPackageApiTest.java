@@ -9,7 +9,7 @@ import java.util.Map;
 import org.junit.Ignore;
 import org.junit.Test;
 
-import weixin.sdk.api.RedPackageApi;
+import apiclient.sdk.weixin.api.RedPackageApi;
 
 public class RedPackageApiTest {
 	

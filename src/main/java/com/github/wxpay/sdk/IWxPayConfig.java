@@ -4,7 +4,7 @@ import com.github.wxpay.sdk.IWXPayDomain;
 import com.github.wxpay.sdk.WXPayConfig;
 import com.github.wxpay.sdk.WXPayConstants;
 
-import weixin.sdk.api.Config;
+import apiclient.sdk.weixin.api.Config;
 
 import java.io.ByteArrayInputStream;
 import java.io.File;

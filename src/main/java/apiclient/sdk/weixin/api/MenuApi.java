@@ -1,10 +1,10 @@
-package weixin.sdk.api;
+package apiclient.sdk.weixin.api;
 
 import java.util.Map;
 
 import com.alibaba.fastjson.JSONObject;
 
-import weixin.sdk.util.WebUtil;
+import apiclient.sdk.util.WebUtil;
 
 public class MenuApi {
 	

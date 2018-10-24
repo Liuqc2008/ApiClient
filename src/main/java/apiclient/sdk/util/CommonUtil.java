@@ -1,4 +1,4 @@
-package weixin.sdk.util;
+package apiclient.sdk.util;
 
 import java.util.Map;
 import java.util.TreeMap;

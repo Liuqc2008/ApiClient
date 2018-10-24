@@ -1,9 +1,9 @@
-package weixin.sdk.api;
+package apiclient.sdk.weixin.api;
 
 import java.util.Map;
 
-import weixin.sdk.util.JSONObjectToHashMap;
-import weixin.sdk.util.WebUtil;
+import apiclient.sdk.util.JSONObjectToHashMap;
+import apiclient.sdk.util.WebUtil;
 
 public class WeixinOauth2Api {
 	/**

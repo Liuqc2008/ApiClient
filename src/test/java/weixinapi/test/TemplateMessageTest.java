@@ -6,8 +6,7 @@ import java.util.Map;
 import org.junit.Ignore;
 import org.junit.Test;
 
-
-import weixin.sdk.api.*;
+import apiclient.sdk.weixin.api.*;
 
 public class TemplateMessageTest {
 
