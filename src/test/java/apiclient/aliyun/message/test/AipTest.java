@@ -13,7 +13,7 @@ import apiclient.aliyun.message.MessageApi;
 
 public class AipTest {
 	
-	//@Ignore
+	@Ignore
 	@Test
 	public void sendMessageTest() throws Exception {
 		Map<String, Object> param = new HashMap<String, Object>();
