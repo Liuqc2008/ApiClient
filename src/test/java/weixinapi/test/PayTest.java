@@ -23,7 +23,7 @@ public class PayTest {
 	}
 	
 	/*
-	 * 统一下单接口
+	 * 统一下单接口（当前参数   网页扫描支付）
 	 * */
 	@Ignore
 	@Test
