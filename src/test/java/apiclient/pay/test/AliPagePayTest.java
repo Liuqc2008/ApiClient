@@ -30,7 +30,7 @@ public class AliPagePayTest {
 		
 	}
 	
-	//@Ignore
+	@Ignore
 	@Test
 	public void aliPageRefundQuery() throws Exception {
 		String result = AliPagePayApi.aliPageRefundQuery("20181024175820713", "", "aliPageRefundQuery");
